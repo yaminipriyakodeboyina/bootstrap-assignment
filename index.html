@@ -1,6 +1,8 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -41,7 +43,7 @@
 
   <!-- Header Section -->
   <header>
-    <div class="container-fluid px-0 himg">
+    <div class="container-fluid px-0 himg ppad">
       <div class="row mr-0" id="box-search">
         <div class=" col-sm-12 thumbnail1 text-center pt-5 pr-0">
           <img src="images/book1.jpg" width="100%" alt="" class="img-responsive">
@@ -57,42 +59,44 @@
                     <button class="close" data-dismis="modal">&times;</button>
                   </div>
                   <!-- Form section -->
-                  <form>
-                    <div class="form-group">
-                      <label for="username">Username
-                        <input type="text" placeholder="Username" class="form-control">
-                      </label>
-                      <label for="Place">Place
-                        <input type="text" placeholder="place" class="form-control">
-                      </label>
-                      <label for="date">Date
-                        <input type="date" placeholder="date" class="form-control">
-                      </label>
-                      <label for="Email">Email
-                        <input type="email" placeholder="Email" class="form-control">
-                      </label>
-                    </div>
+                  <form class="py-2 px-5">
+                      <div class="form-group input-group">
+                        <label for="name">Name :</label>
+                        <span><input type="text" placeholder="Username" class="form-control"></span>
+                      </div>
+                      <div class="form-group input-group">
+                        <label for="Place">Place :</label>
+                        <span><input type="place" placeholder="place" class="form-control"></span>
+                      </div>
+                      <div class="form-group input-group">
+                          <label for="Date">Date :</label>
+                          <span><input type="date" placeholder="Date" class="form-control"></span>
+                        </div>
+                      <div class="form-group input-group">
+                          <label for="email">Email :</label>
+                        <span><input type="email" placeholder="Email" class="form-control"></span>
+                        </div>
+                    
                     <div class="modal-footer">
                       <button class="btn btn-secondary" data-dismis="modal">Close</button>
-                      <button class="btn btn-primary" data-dismis="modal">Book</button>
-                    </div>
+                      <button class="btn btn-primary" data-dismis="modal">Book</button></div>
                   </form>
                 </div>
 
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
   </header>
   <!-- Grid Section -->
 
-  <div="container pt-4">
-    <h5 class="pl-2">Must Visit Places</h5>
-    <div class="row no-gutters justify-content-center m-2">
+  <div class="container ppad">
+    <h4 class="text-center">Must Visit Places</h4>
+    <div class="row no-gutters justify-content-center pt-2">
 
-      <div class="col-sm-4 col-md-6 col-lg-4 pr-2">
+      <div class="col-sm-4 col-md-6 col-lg-4 pr-2 ">
 
         <img src="images/taj.jpg" width="100%" height="300" alt="test" class="img-responsive">
         <h5 class="text-center">Taj Mahal</h5>
@@ -115,88 +119,84 @@
           level, located in the Mahalangur Himal sub-range of the Himalayas.</p>
       </div>
     </div>
-    </div>
+  </div>
 
 
 
-    <div class="container mt-1 mb-2">
-      <div class="row px-0">
-        <div class="col-sm-12 col-md-6 col-lg-6 align-self-start px-1">
-          <img src="images/enjoy.jpg" width="100%" height="300px" alt="test" class="img-responsive rounded-circle">
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6 align-self-start px-0  align-self-center">
-          <h2 class="text-center">Explore with us!</h2>
-          <p class="text-justify"> The leading player in online bookings in India, Explore offers great offers, some of the lowest airfares, exclusive
-            discounts and a seamless online booking experience. Flight, hotel and holiday bookings through the desktop or
-            mobile site is a delightfully customer friendly experience, and with just a few clicks you can complete your
-            booking. With features like Instant Discounts, Fare Calendar, MyRewards Program, MyWallet and many more, the
-            overall booking experience with Explore constantly adds value to its product and continues to offer the best
-            to its customers.
-          </p>
+  <div class="container mt-5 mb-2 ppad">
+    <div class="row px-0">
+      <div class="col-sm-12 col-md-6 col-lg-6 align-self-start pr-2">
+        <img src="images/enjoy.jpg" width="100%" height="300px" alt="test" class="img-responsive">
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 align-self-start px-0  align-self-center">
+        <h2 class="text-center">Explore with us!</h2>
+        <p class="text-justify"> The leading player in online bookings in India, Explore offers great offers, some of the lowest airfares, exclusive
+          discounts and a seamless online booking experience. Flight, hotel and holiday bookings through the desktop or mobile
+          site is a delightfully customer friendly experience, and with just a few clicks you can complete your booking.
+          With features like Instant Discounts, Fare Calendar, MyRewards Program, MyWallet and many more, the overall booking
+          experience with Explore constantly adds value to its product and continues to offer the best to its customers.
+        </p>
 
-        </div>
       </div>
     </div>
+  </div>
 
-    <!-- footer section -->
+  <!-- footer section -->
 
-    <footer id="main-footer" class="py-5 bg-dark text-white">
-      <div class="container">
-        <div class="row justify-content-around ml-4">
-          <div class="col-sm-4">
-            <h4>Menu</h4>
-            <ul class="list-unstyled">
-              <li>
-                <a href="index.html" class="text-white">Home</a>
-              </li>
-              <li>
-                <a href="services.html" class="text-white">Services</a>
-              </li>
-              <li>
-                <a href="index1.html" class="text-white">Feedback</a>
-              </li>
-              <li>
-                <a href="services.html" class="text-white">About us</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-sm-4">
-            <h4>Social media</h4>
-            <ul class="list-unstyled">
-              <li>
-                <i class="fab fa-twitter"></i>
-                <a href="services1.html" class="text-white">Twitter</a>
-              </li>
-              <li>
-
-                <i class="fab fa-google-plus-g"></i>
-                <a href="index1.html" class="text-white">Google+</a>
-              </li>
-              <li>
-
-                <i class="fab fa-facebook-f"></i>
-                <a class="text-white" href="home.html">Facebook</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-sm-4">
-            <h4>Contact us</h4>
-            <ul class="list-unstyled">
-              <li>Email: explore@gmail.com</li>
-              <li>Phone no: (+91) 89436523</li>
-              <li>Fax: (+91) 1147521433</li>
-            </ul>
-          </div>
-
-
+  <footer id="main-footer" class="py-5 bg-dark text-white mt-5 fpad ppad">
+    <div class="container">
+      <div class="row justify-content-around ml-4">
+        <div class="col-sm-4">
+          <h4>Menu</h4>
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html" class="text-white">Home</a>
+            </li>
+            <li>
+              <a href="services.html" class="text-white">Services</a>
+            </li>
+            <li>
+              <a href="index1.html" class="text-white">Feedback</a>
+            </li>
+            <li>
+              <a href="services.html" class="text-white">About us</a>
+            </li>
+          </ul>
         </div>
+
+        <div class="col-sm-4">
+          <h4>Social media</h4>
+          <ul class="list-unstyled">
+            <li>
+              <i class="fab fa-twitter"></i>
+              <a href="services1.html" class="text-white">Twitter</a>
+            </li>
+            <li>
+
+              <i class="fab fa-google-plus-g"></i>
+              <a href="index1.html" class="text-white">Google+</a>
+            </li>
+            <li>
+
+              <i class="fab fa-facebook-f"></i>
+              <a class="text-white" href="home.html">Facebook</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-sm-4">
+          <h4>Contact us</h4>
+          <ul class="list-unstyled">
+            <li>Email: explore@gmail.com</li>
+            <li>Phone no: (+91) 89436523</li>
+            <li>Fax: (+91) 1147521433</li>
+          </ul>
+        </div>
+
+
       </div>
-
-
-    </footer>
-
+    </div>
+  </footer>
 </body>
 
 </html>
