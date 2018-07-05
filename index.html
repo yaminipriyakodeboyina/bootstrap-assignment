@@ -1,0 +1,202 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Nav bar section -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+    <div class="container">
+      <h2>Explore</h2>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Feedback</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container-fluid px-0">
+      <div class="row mr-0" id="box-search">
+        <div class=" col-sm-12 thumbnail1 text-center pt-5 pr-0">
+          <img src="images/book1.jpg" width="100%" alt="" class="img-responsive">
+          <div class="caption">
+            <button class="btn btn-info btn-outline-primary h4" data-toggle="modal" data-target="#bookmodal">Book</button>
+            <span class="h4">your trip</span>
+            <!-- Modal Section -->
+            <div class="modal" id="bookmodal">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Book your trip</h5>
+                    <button class="close" data-dismis="modal">&times;</button>
+                  </div>
+                  <!-- Form section -->
+                  <form>
+                    <div class="form-group">
+                      <label for="username">Username
+                        <input type="text" placeholder="Username" class="form-control">
+                      </label>
+                      <label for="Place">Place
+                        <input type="text" placeholder="place" class="form-control">
+                      </label>
+                      <label for="date">Date
+                        <input type="date" placeholder="date" class="form-control">
+                      </label>
+                      <label for="Email">Email
+                        <input type="email" placeholder="Email" class="form-control">
+                      </label>
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-secondary" data-dismis="modal">Close</button>
+                      <button class="btn btn-primary" data-dismis="modal">Book</button>
+                    </div>
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Grid Section -->
+  
+  <div="container">
+    <h5 class="pl-2">Must Visit Places</h5>
+    <div class="row no-gutters justify-content-center m-2">
+    
+      <div class="col-sm-4 pr-2">
+
+        <img src="images/taj.jpg" width="100%" height="300" alt="test" class="img-responsive">
+        <h5 class="text-center">Taj Mahal</h5>
+        <p class="text-justify">Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It
+          was commissioned by the Mughal emperor, Shah Jahan, to house the tomb of his favourite wife, Mumtaz Mahal.</p>
+      </div>
+    
+      <div class="col-sm-4 pr-1">
+
+        <img src="images/coorg.jpg" width="100%" height="300" alt="test" class="img-responsive">
+        <h5 class="text-center">Coorg</h5>
+        <p class="text-justify pl-3">Coorg, also known as Kodagu, is a rural district in the southwest Indian state of Karnataka. In the area’s north,
+          Madikeri Fort has 2 life-size elephant statues at its entrance, plus a Gothic-style church with a museum.</p>
+      </div>
+      <div class="col-sm-4">
+
+        <img src="images/everest.jpg" width="100%" height="300" alt="test" class="img-responsive">
+        <h5 class="text-center">Mount Everest</h5>
+        <p class="text-justify pl-3">Mount Everest, known in Nepali as Sagarmāthā and in Tibetan as Chomolungma, is Earth's highest mountain above sea
+          level, located in the Mahalangur Himal sub-range of the Himalayas.</p>
+      </div>
+    </div>
+    </div>
+
+  
+
+    <div class="container mt-1 mb-2">
+      <div class="row px-0">
+        <div class="col-sm-6 align-self-start px-0">
+          <img src="images/enjoy.jpg" width="100%" height="300px" alt="test" class="img-responsive rounded-circle">
+        </div>
+        <div class="col-sm-6  align-self-center">
+          <h2 class="text-center">Explore with us!</h2>
+          <p class="text-justify"> The leading player in online bookings in India, Explore offers great offers, some of the lowest airfares, exclusive
+            discounts and a seamless online booking experience. Flight, hotel and holiday bookings through the desktop or
+            mobile site is a delightfully customer friendly experience, and with just a few clicks you can complete your
+            booking. With features like Instant Discounts, Fare Calendar, MyRewards Program, MyWallet and many more, the
+            overall booking experience with Explore constantly adds value to its product and continues to offer the best
+            to its customers.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <footer id="main-footer" class="py-5 bg-dark text-white">
+      <div class="container">
+        <div class="row justify-content-around ml-4">
+          <div class="col-sm-4">
+            <h4>Menu</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="services.html" class="text-white">Services</a>
+              </li>
+              <li>
+                <a href="index1.html" class="text-white">Feedback</a>
+              </li>
+              <li>
+                <a href="services.html" class="text-white">About us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-4">
+            <h4>Social media</h4>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fab fa-twitter"></i>
+                <a href="services1.html" class="text-white">Twitter</a>
+              </li>
+              <li>
+
+                <i class="fab fa-google-plus-g"></i>
+                <a href="index1.html" class="text-white">Google+</a>
+              </li>
+              <li>
+
+                <i class="fab fa-facebook-f"></i>
+                <a class="text-white" href="home.html">Facebook</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-4">
+            <h4>Contact us</h4>
+            <ul class="list-unstyled">
+              <li>Email: explore@gmail.com</li>
+              <li>Phone no: (+91) 89436523</li>
+              <li>Fax: (+91) 1147521433</li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    
+
+    </footer>
+
+</body>
+
+</html>
