@@ -1,7 +1,12 @@
+/* header */
+
 .thumbnail1 {
   position: relative;
 }
-
+.himg
+{
+  padding-top: 10px;
+}
 .caption {
   position: absolute;
   top: 45%;
@@ -13,3 +18,12 @@
 .slide1 {
   padding-top: 60px;
 }
+
+.ftext {
+  padding-right: 50px;
+}
+.logo
+{
+  height: 192px;
+}
+
